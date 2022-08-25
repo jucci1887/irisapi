@@ -4,7 +4,7 @@
  File: app
  Date: 8/16/22 2:02 AM
 */
-package irisapp
+package irisapi
 
 import (
 	"github.com/kataras/iris/v12"
