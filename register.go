@@ -5,7 +5,7 @@
  * Time: 15:03
  */
 
-package irisapp
+package irisapi
 
 import (
 	"fmt"
