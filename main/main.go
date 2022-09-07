@@ -7,13 +7,13 @@
 package main
 
 import (
-	"github.com/kavanahuang/irisapp"
-	"github.com/kavanahuang/irisapp/router"
+	"github.com/kavanahuang/irisapi"
+	"github.com/kavanahuang/irisapi/router"
 )
 
 // Iris api call example.
 func main() {
-	newApp := irisapp.App.New()
-	router.AppRoute.NewRouter(newApp.Apply)
-	newApp.Run(newApp.Apply)
+	app := irisapi.App.New()
+	router.AppRoute.NewRouter(app.Apply)
+	app.Run(app.Apply)
 }

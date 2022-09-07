@@ -29,8 +29,9 @@ func (app *apps) New() *apps {
 
 // Run a app
 func (app *apps) Run(newApp *iris.Application) {
-	// Begin listening for the application
+	defer logs.CloseLogger()
 	port := config.Toml.NewToml("config", "app.toml").Zone("listen").Get("port").AtStr()
+	// Begin listening for the application
 	err := newApp.Run(iris.Addr(port), iris.WithoutServerError(iris.ErrServerClosed))
 	logs.Error("App service is down, closed port: "+port, err)
 }
