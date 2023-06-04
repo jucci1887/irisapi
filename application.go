@@ -1,15 +1,15 @@
 /*
- Author: Kernel.Huang
- Mail: kernelman79@gmail.com
- File: app
- Date: 8/16/22 2:02 AM
+Author: Kernel.Huang
+Mail: kernelman79@gmail.com
+File: app
+Date: 8/16/22 2:02 AM
 */
 package irisapi
 
 import (
+	"github.com/jucci1887/config"
+	"github.com/jucci1887/logs"
 	"github.com/kataras/iris/v12"
-	"github.com/kavanahuang/config"
-	"github.com/kavanahuang/logs"
 )
 
 type apps struct {

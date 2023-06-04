@@ -10,7 +10,7 @@ package router
 import (
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/hero"
-	"github.com/kavanahuang/irisapp/controller"
+	"github.com/jucci1887/irisapp/controller"
 )
 
 type router struct {

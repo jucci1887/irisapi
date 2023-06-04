@@ -7,8 +7,8 @@
 package main
 
 import (
-	"github.com/kavanahuang/irisapi"
-	"github.com/kavanahuang/irisapi/router"
+	"github.com/jucci1887/irisapi"
+	"github.com/jucci1887/irisapi/router"
 )
 
 // Iris api call example.

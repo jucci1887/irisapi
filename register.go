@@ -12,8 +12,8 @@ import (
 	"github.com/kataras/iris/v12"
 	"github.com/kataras/iris/v12/middleware/logger"
 	"github.com/kataras/iris/v12/middleware/recover"
-	"github.com/kavanahuang/config"
-	"github.com/kavanahuang/logs"
+	"github.com/jucci1887/config"
+	"github.com/jucci1887/logs"
 )
 
 type injection struct{}

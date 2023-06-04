@@ -9,7 +9,7 @@ package controller
 
 import (
 	"github.com/kataras/iris/v12"
-	"github.com/kavanahuang/status"
+	"github.com/jucci1887/status"
 )
 
 type IndexController struct {
